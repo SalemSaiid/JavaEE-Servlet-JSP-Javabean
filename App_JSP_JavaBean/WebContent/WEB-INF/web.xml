@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>App_JSP_JavaBean</display-name>
+
+    <servlet>
+       <servlet-name>LoginServlet</servlet-name>
+       <servlet-class>Controller.LoginServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+       <servlet-name>InscriptionServlet</servlet-name>
+       <servlet-class>Controller.InscriptionServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>InscriptionServlet</servlet-name>
+        <url-pattern>/Inscription</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+       <servlet-name>CommandeServlet</servlet-name>
+       <servlet-class>Controller.CommandeServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>CommandeServlet</servlet-name>
+        <url-pattern>/Commande</url-pattern>
+    </servlet-mapping>
+    
+    
+     <servlet>
+       <servlet-name>HomeServlet</servlet-name>
+       <servlet-class>Controller.HomeServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>HomeServlet</servlet-name>
+        <url-pattern>/Home</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+       <servlet-name>CheckoutServlet</servlet-name>
+       <servlet-class>Controller.CheckoutServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>CheckoutServlet</servlet-name>
+        <url-pattern>/Checkout</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+       <servlet-name>UserServlet</servlet-name>
+       <servlet-class>Controller.UserServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>UserServlet</servlet-name>
+        <url-pattern>/User</url-pattern>
+    </servlet-mapping>
+    
+    
+     <servlet>
+       <servlet-name>ProduitServlet</servlet-name>
+       <servlet-class>Controller.ProduitServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ProduitServlet</servlet-name>
+        <url-pattern>/Produit</url-pattern>
+    </servlet-mapping>
+    
+    
+     <servlet>
+       <servlet-name>ProductServlet</servlet-name>
+       <servlet-class>Controller.ProductServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ProductServlet</servlet-name>
+        <url-pattern>/Product</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    <servlet>
+       <servlet-name>ConfirmEditServlet</servlet-name>
+       <servlet-class>Controller.ConfirmEditServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ConfirmEditServlet</servlet-name>
+        <url-pattern>/ConfirmEdit</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+       <servlet-name>ConfirmEditProduitServlet</servlet-name>
+       <servlet-class>Controller.ConfirmEditProduitServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ConfirmEditProduitServlet</servlet-name>
+        <url-pattern>/ConfirmEditProduit</url-pattern>
+    </servlet-mapping>
+    
+    
+      <servlet>
+       <servlet-name>AjoutPanierServlet</servlet-name>
+       <servlet-class>Controller.AjoutPanierServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>AjoutPanierServlet</servlet-name>
+        <url-pattern>/AjoutPanier</url-pattern>
+    </servlet-mapping>
+    
+       <servlet>
+       <servlet-name>PanierServlet</servlet-name>
+       <servlet-class>Controller.PanierServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>PanierServlet</servlet-name>
+        <url-pattern>/Panier</url-pattern>
+    </servlet-mapping>
+
+</web-app>
